@@ -10,7 +10,7 @@ name: Check In
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 */7 * *'   # 每7天UTC 0点自动执行 / Auto-run every 7 days
+    - cron: '0 0 */6 * *'   # 每7天UTC 0点自动执行 / Auto-run every 7 days
 
 jobs:
   del_runs:
